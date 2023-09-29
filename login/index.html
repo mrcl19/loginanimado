@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="main-login">
+
+        <!--classe a esquerda da caixa de login-->
+
+        <div class="left-login">
+
+            <!--texto em cima da pagina-->
+
+            <h1>TELA DE LOGIN TESTE<br>Teste login exemplo</h1>  
+
+            <!--imagem da pagina-->
+
+            <img src="guri.svg" class="left-login-image" alt="guri"> 
+        </div>
+
+        <!--classe da caixa de login-->
+
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+
+                <!--usuário-->
+
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                </div>
+
+                <!--senha-->
+
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+
+                </div>
+
+                <!--botão de login-->
+               
+                <button id="login" onclick="parabens()"> login </button>
+        </div>
+    </div>
+
+    <!--script para abrir uma pagina quando clica em login-->
+    
+    <script>
+    function parabens(){
+      
+          
+          const win = window.open('')
+          win.focus()
+          
+      }
+    </script>
+  
+    
+</body>
+</html>
